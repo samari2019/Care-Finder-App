@@ -6,13 +6,25 @@ import { MdOutlinePersonSearch } from "react-icons/md";
 import { IoIosStar } from "react-icons/io";
 import NearByHosp from "./NearByHosp";
 import { AppContext } from "./App";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 function Home() {
-    const { NearByHospital, setNearByHospital } = useContext(AppContext)
+    const { NearByHospital, setNearByHospital, hospitalList,setfilterHospital } = useContext(AppContext)
     const handleUseInput = (e) => {
-        setNearByHospital(e.target.value)
+
     }
+    const searchHospital = (e) => {
+        setNearByHospital(e.target.value)
+        const result = hospitalList.filter(hospital => hospital.facility_name.toLowerCase().includes(NearByHospital))
+        if (result.length >= 1) {
+            setfilterHospital(result)
+            return result
+        }
+
+        else return "No hospital near by"
+    }
+
+
     return (
         <>
             <Header />
@@ -24,7 +36,7 @@ function Home() {
                 <img className="image2" src="./images/image4.jpg" alt="" />
                 <div className="search-btn">
                     <p className="FA"> Find a nearby hospital</p>
-                    <input className="IN-1" type="text" placeholder="Federal Medical Center, Ebutte Metta,Lagos State" name="NearByHospital" value={NearByHospital} onChange={handleUseInput} />
+                    <input className="IN-1" type="text" placeholder="Federal Medical Center, Ebutte Metta,Lagos State" name="NearByHospital" value={NearByHospital} onChange={searchHospital} />
                     <NearByHosp />
                 </div>
 

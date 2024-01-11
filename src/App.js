@@ -12,11 +12,13 @@ import Library from "./Library";
 
 
  export const AppContext = React.createContext({})
-
+export const hospitalList = []
 
 function App() {
+  const [filterHospital, setfilterHospital] = useState([]);
   const [NearByHospital, setNearByHospital] = useState("HI Hospital");
-  return ( <AppContext.Provider value={{NearByHospital, setNearByHospital}}>
+  
+  return ( <AppContext.Provider value={{NearByHospital, setNearByHospital, hospitalList, filterHospital, setfilterHospital}}>
     <div className="container">
       <BrowserRouter>
         <Routes>
