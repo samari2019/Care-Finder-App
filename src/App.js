@@ -5,14 +5,16 @@ import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import SignUp from "./SignUp";
 import LogIn from "./LogIn";
+import FindHospital from "./FindHospital";
 import PopUp from "./PopUp";
 import Profile from "./Profile";
 import Library from "./Library";
 
 
 
+
  export const AppContext = React.createContext({})
-export const hospitalList = []
+ export const hospitalList = []
 
 function App() {
   const [filterHospital, setfilterHospital] = useState([]);
@@ -26,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/LogIn" element={<LogIn />} />
+          <Route path="/FindHospital" element={<FindHospital />} />
         </Routes>
       </BrowserRouter>
       {/*<PopUp />*/}
