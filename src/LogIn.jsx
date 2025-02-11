@@ -26,7 +26,7 @@ function LogIn() {
             <p className="Wel-OR">OR</p>
             <p className="Wel-Login-using">Login using</p>
 
-            <div className="icons">
+            <div className="Wel-icons">
               <FcGoogle className="FcGoogle" />
               <IoLogoApple className="IoLogoApple" />
               <FaFacebook className="FaFacebook" />
@@ -36,10 +36,10 @@ function LogIn() {
         </div>
 
         <div className="Join-Our-Comm2">
-          {/* <h3 className="Join-Our-Comm-H3">CareFinder</h3>
+          <h3 className="Join-Our-Comm-H3">CareFinder</h3>
           <p className="Join-Our-Comm-p1"> Join Our Community</p>
           <p className="Join-Our-Comm-p2">Enjoy seamless access to medical services.</p>
-          <img className="Join-Our-Comm-image" src="./images/img7.jpg" alt="" /> */}
+          <img className="Join-Our-Comm-image" src="./images/img7.jpg" alt="" />
         </div>
       </div>
     </>

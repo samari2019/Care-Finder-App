@@ -1552,7 +1552,6 @@ color: #08299B;
         height: 700px;
         display: flex;
         justify-content: space-around; 
-
     }
     
     .image3-con{
@@ -1973,8 +1972,7 @@ color: #08299B;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;  
     }
     .BAA{
         font-family: 'DM Sans';
@@ -2260,8 +2258,7 @@ color: #08299B;
         font-family: 'DM sans';
         font-weight: 500;
         font-size: 25px;
-        color:#837D7D;
-        
+        color:#837D7D;   
     }
     .WOUS{
         font-family: 'DM sans';
@@ -2488,7 +2485,6 @@ color: #08299B;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
     .decription-con-1{
      width:360px;
@@ -2662,7 +2658,6 @@ color: #08299B;
         line-height: 35px;
         text-align: center;    
     }
-    
     .OS{
         width:148px;
         height:44px;
@@ -2738,7 +2733,6 @@ color: #08299B;
         align-items: center;
         justify-content: center;
     }
-    
     .Search-hosp-h4{
         font-family:'DM sans';
         font-weight:700;
@@ -3523,20 +3517,20 @@ background-color:#F2F2F2;
 
 .CAACC-h2{
     width:525px;
-    height:110px;
+    height:70px;
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 60px;
     text-align: center;
-
+    margin-top: 45px;
 }
 .label-1{
     width:223px;
     height:37px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     padding: 15px 0px 0px 15px;
 }
 .label-2{
@@ -3544,7 +3538,7 @@ background-color:#F2F2F2;
     height:37px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     padding: 15px 0px 0px 15px;
 }
 .label-3{
@@ -3552,7 +3546,7 @@ background-color:#F2F2F2;
     height:37px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     padding: 15px 0px 0px 15px;
 }
 
@@ -3561,7 +3555,7 @@ background-color:#F2F2F2;
     height:37px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 15px;
     padding-top: 15px;
 }
@@ -3574,7 +3568,7 @@ background-color:#F2F2F2;
     padding-left: 15px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     color: #C1C1C1; 
 }
 .enter-email-B{
@@ -3586,7 +3580,7 @@ background-color:#F2F2F2;
     padding-left: 15px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     color: #C1C1C1; 
 }
 .PassWord-C{
@@ -3598,7 +3592,7 @@ background-color:#F2F2F2;
     padding-left: 15px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     color: #C1C1C1; 
 }
 .PassWord-D{
@@ -3610,7 +3604,7 @@ background-color:#F2F2F2;
     padding-left: 15px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     color: #C1C1C1; 
 }
 .error{
@@ -3621,8 +3615,8 @@ background-color:#F2F2F2;
     left:45px; */
 }
 .button-D{
-    width:326px;
-    height: 59px;
+    width:306px;
+    height: 49px;
     border-radius: 12px;
     border:0px;
     background-color: #08299B;
@@ -3630,49 +3624,48 @@ background-color:#F2F2F2;
     line-height: 45px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size:22px;
+    font-size:18px;
     text-align: center;
     margin: auto;
 }
 .OR{
-    width:112px;
+    width:90px;
     height:35px;
     font-family:'DM sans';
     font-weight:700;
-    font-size:25px;
+    font-size:20px;
     line-height:37.5px;
     text-align: center;
     margin-top: 20px;
 }
 .icons{
-    width: 180px;
-    height:50px;
+    width: 160px;
+    height:30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
-    
 }
 .FcGoogle{
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
 }
 .IoLogoApple{
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
 }
 .FaFacebook{
     width: 17.11px;
     color: rgb(39, 134, 223);
-    width: 40px;
-    height:40px;
+    width: 20px;
+    height:20px;
 }
 .Already-have-an-account{
     width:563px;
     height:44px;
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     text-align: center;
     margin-top: 60px;
@@ -3688,8 +3681,7 @@ background-color:#F2F2F2;
 .Join-Our-Comm{
     flex: 1;
     height: 1024px;
-    padding: 70px 0px 70px 0px;
-    
+    padding: 70px 0px 70px 0px;  
 }
 .Join-Our-Comm-image{
     width: 100%;
@@ -3697,23 +3689,23 @@ background-color:#F2F2F2;
     border-radius: 20px;
 }
 .Join-Our-Comm-H3{
-    width:284px;
-    height:115px;
+    width:204px;
+    height:120px;
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 50px;
-    line-height: 75px;
+    font-size: 40px;
+    line-height: 65px;
     color: #08299B;
     padding: 10px;
-   
+    text-align: center;  
 }
 .Join-Our-Comm-p1{
-    width:451px;
-    height:146px;
+    width:351px;
+    height:120px;
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 50px;
-    line-height: 75px;
+    font-size: 40px;
+    line-height: 55px;
     color: #000000;
     text-align: center;
 }
@@ -3722,7 +3714,7 @@ background-color:#F2F2F2;
     height:98px;
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 45px;
     color: #333232;
     text-align: center;
@@ -3743,7 +3735,7 @@ background-color:#F2F2F2;
          padding: 30px 0px 0px 30px;
      }
      .Create-An-Acct-Con1{
-     width: 423px;
+     /* width: 423px; */
      height: 879px;
      display: flex;
      flex-direction: column;
@@ -3752,28 +3744,26 @@ background-color:#F2F2F2;
      background-color:#F2F2F2;
      }
      .form-container{
-         width:400px;
+         /* width:400px; */
          height:592px;
          border-radius: 12px;
          display: flex;
          flex-direction: column;
          gap: 10px;
-         padding:10px;
-      
+         padding:10px; 
      }
-     
      .CAACC-h2{
-         width:400px;
+         /* width:400px; */
          height:100px;
          font-family: 'DM Sans';
          font-weight: 700;
-         font-size: 30px;
+         font-size: 25px;
          line-height: 40px;
          text-align: center;
          padding-top:30px;
      }
      .label-1{
-         width:223px;
+         /* width:223px; */
          height:37px;
          font-family: 'DM Sans';
          font-weight: 500;
@@ -3781,7 +3771,7 @@ background-color:#F2F2F2;
          padding: 15px 0px 0px 15px;
      }
      .label-2{
-         width:223px;
+         /* width:223px; */
          height:37px;
          font-family: 'DM Sans';
          font-weight: 500;
@@ -3789,7 +3779,7 @@ background-color:#F2F2F2;
          padding: 15px 0px 0px 15px;
      }
      .label-3{
-         width:223px;
+         /* width:223px; */
          height:37px;
          font-family: 'DM Sans';
          font-weight: 500;
@@ -3798,7 +3788,7 @@ background-color:#F2F2F2;
      }
      
      .label-4{
-         width:223px;
+         /* width:223px; */
          height:37px;
          font-family: 'DM Sans';
          font-weight: 500;
@@ -3807,7 +3797,7 @@ background-color:#F2F2F2;
          padding-top: 15px;
      }
      .enter-name-A{
-         width:380px;
+         /* width:380px; */
          height:58px;
          border-radius:12px;
          background-color: #E0E4EC;
@@ -3819,7 +3809,7 @@ background-color:#F2F2F2;
          color: #C1C1C1; 
      }
      .enter-email-B{
-         width:380px;
+         /* width:380px; */
          height:58px;
          border-radius:12px;
          background-color: #E0E4EC;
@@ -3831,7 +3821,7 @@ background-color:#F2F2F2;
          color: #C1C1C1; 
      }
      .PassWord-C{
-         width:380px;
+         /* width:380px; */
          height:58px;
          border-radius:12px;
          background-color: #E0E4EC;
@@ -3843,7 +3833,7 @@ background-color:#F2F2F2;
          color: #C1C1C1; 
      }
      .PassWord-D{
-         width:380px;
+         /* width:380px; */
          height:58px;
          border-radius:12px;
          background-color: #E0E4EC;
@@ -3862,8 +3852,8 @@ background-color:#F2F2F2;
          left:45px; */
      }
      .button-D{
-         width:300px;
-         height: 59px;
+         width:200px;
+         height: 49px;
          border-radius: 12px;
          border:0px;
          background-color: #08299B;
@@ -3871,7 +3861,7 @@ background-color:#F2F2F2;
          line-height: 45px;
          font-family: 'DM Sans';
          font-weight: 500;
-         font-size:20px;
+         font-size:15px;
          text-align: center;
          margin: auto;
      }
@@ -3880,7 +3870,7 @@ background-color:#F2F2F2;
          height:35px;
          font-family:'DM sans';
          font-weight:700;
-         font-size:20px;
+         font-size:15px;
          line-height:37.5px;
          text-align: center;
          margin-top: 20px;
@@ -3891,28 +3881,27 @@ background-color:#F2F2F2;
          display: flex;
          justify-content: space-evenly;
          align-items: center;
-         margin-top: 10px;
-         
+         margin-top: 10px;   
      }
      .FcGoogle{
-         width:30px;
-         height:30px;
+         width:20px;
+         height:20px;
      }
      .IoLogoApple{
-         width:30px;
-         height:30px;
+         width:20px;
+         height:20px;
      }
      .FaFacebook{
          color: rgb(39, 134, 223);
-         width: 30px;
-         height:30px;
+         width: 20px;
+         height:20px;
      }
      .Already-have-an-account{
-         width:403px;
+         /* width:403px; */
          height:34px;
          font-family: 'DM Sans';
          font-weight: 500;
-         font-size: 18px;
+         font-size: 12px;
          line-height: 20px;
          text-align: center;
          margin: auto;
@@ -3925,7 +3914,7 @@ background-color:#F2F2F2;
         padding: 30px 0px 30px 0px;
     }
      .Join-comm-con1{
-         width: 423px;
+         /* width: 423px; */
          height: 879px;
          display: flex;
          flex-direction: column;
@@ -3938,32 +3927,31 @@ background-color:#F2F2F2;
          border-radius: 20px;
      }
      .Join-Our-Comm-H3{
-         width:204px;
+         width:214px;
          height:100px;
          font-family: 'DM Sans';
          font-weight: 700;
-         font-size: 40px;
+         font-size: 35px;
          line-height: 75px;
          color: #08299B;
-         padding: 20px;
-        
+         padding: 20px;   
      }
      .Join-Our-Comm-p1{
          width:200px;
-         height:126px;
+         height:106px;
          font-family: 'DM Sans';
          font-weight: 700;
          font-size: 30px;
-         line-height: 45px;
+         line-height: 40px;
          color: #000000;
          text-align: center;
      }
      .Join-Our-Comm-p2{
-         width:407px;
+         /* width:307px; */
          height:98px;
          font-family: 'DM Sans';
          font-weight: 700;
-         font-size: 25px;
+         font-size: 20px;
          line-height: 45px;
          color: #333232;
          text-align: center;
@@ -3973,20 +3961,23 @@ background-color:#F2F2F2;
 
 @media (min-width: 320px) and (max-width: 480px) {
     .SignUp-Container{
-        background-image: url("../public/images/img11.jpg");
+        /* background-image: url("../public/images/img11.jpg"); */
          width: 100%;
-         height: 1140px; 
+         height: 1740px; 
          display: flex;
          flex-direction: column;
+         position: relative;
      }
      .Create-An-Account{
          flex: 1;
-         height: 1024px;
+         height: 974px;
          display: flex;
          justify-content: center;
          align-items: center;
-         padding-top: 30px;
-         background-color: #8193B8;
+         padding-top: 10px;
+         position: absolute;
+         top:740px;
+         left: 20px;;
      }
      .Create-An-Acct-Con1{
      width: 320px;
@@ -4005,7 +3996,6 @@ background-color:#F2F2F2;
          flex-direction: column;
          gap: 10px;  
      }
-     
      .CAACC-h2{
          width:300px;
          height:100px;
@@ -4040,7 +4030,6 @@ background-color:#F2F2F2;
          font-size: 15px;
          padding: 15px 0px 0px 15px;
      }
-     
      .label-4{
          width:223px;
          height:37px;
@@ -4052,7 +4041,7 @@ background-color:#F2F2F2;
      }
      .enter-name-A{
          width:300px;
-         height:58px;
+         height:48px;
          border-radius:12px;
          background-color: #E0E4EC;
          border: 0px;
@@ -4064,7 +4053,7 @@ background-color:#F2F2F2;
      }
      .enter-email-B{
          width:300px;
-         height:58px;
+         height:48px;
          border-radius:12px;
          background-color: #E0E4EC;
          border: 0px;
@@ -4076,7 +4065,7 @@ background-color:#F2F2F2;
      }
      .PassWord-C{
          width:300px;
-         height:58px;
+         height:48px;
          border-radius:12px;
          background-color: #E0E4EC;
          border: 0px ;
@@ -4088,7 +4077,7 @@ background-color:#F2F2F2;
      }
      .PassWord-D{
          width:300px;
-         height:58px;
+         height:48px;
          border-radius:12px;
          background-color: #E0E4EC;
          border: 0px ;
@@ -4100,14 +4089,14 @@ background-color:#F2F2F2;
      }
      .error{
          width:300px;
-         height:58px;
+         height:38px;
          /* position: absolute;
          top:698px;
          left:45px; */
      }
      .button-D{
-         width:250px;
-         height: 59px;
+         width:200px;
+         height: 49px;
          border-radius: 12px;
          border:0px;
          background-color: #08299B;
@@ -4115,19 +4104,18 @@ background-color:#F2F2F2;
          line-height: 45px;
          font-family: 'DM Sans';
          font-weight: 500;
-         font-size:18px;
+         font-size:15px;
          text-align: center;
          margin: auto;
      }
      .OR{
-         width:112px;
+         width:102px;
          height:35px;
          font-family:'DM sans';
          font-weight:700;
-         font-size:18px;
+         font-size:15px;
          line-height:37.5px;
          text-align: center;
-         margin-top: 20px;
      }
      .icons{
          width: 180px;
@@ -4136,7 +4124,6 @@ background-color:#F2F2F2;
          justify-content: space-evenly;
          align-items: center;
          margin-top: 10px;
-         
      }
      .FcGoogle{
          width:20px;
@@ -4156,29 +4143,24 @@ background-color:#F2F2F2;
          height:34px;
          font-family: 'DM Sans';
          font-weight: 500;
-         font-size: 15px;
+         font-size: 12px;
          line-height: 20px;
          text-align: center;
-         margin: auto;
-     
+         margin: auto; 
      }
-
      .Join-Our-Comm{
         flex: 1;
-        height: 1024px;
+        height: 704px;
         display: flex;
         justify-content: center;
         padding: 30px 0px 30px 0px;
-        background-color: #1877F2;
     }
      .Join-comm-con1{
          width: 320px;
-         height: 779px;
+         height: 709px;
          display: flex;
          flex-direction: column;
-         align-items: center;
-         background-color: #697A9B;;
-       
+         align-items: center;  
      }
      
      .Join-Our-Comm-image{
@@ -4194,8 +4176,7 @@ background-color:#F2F2F2;
          font-size: 30px;
          line-height: 75px;
          color: #08299B;
-         padding: 20px;
-        
+         padding: 20px;  
      }
      .Join-Our-Comm-p1{
          width:150px;
@@ -4232,6 +4213,7 @@ background-color:#F2F2F2;
         height: 1024px;
         padding: 70px 0px 0px 70px;
         background-color: #C1C1C1;
+        margin:40px 0px 0px 40px;
     }
     .Login-Account{
     width: 543px;
@@ -4239,46 +4221,50 @@ background-color:#F2F2F2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border-radius: 20px 0px 0px 0px;
-    background-color:#F2F2F2;
+    background-color:#F2F2F2; 
     }
     .form-container2{
-        width:505px;
-        height:392px;
+        width:605px;
+        height:302px;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        padding:10px;
-        background-color: #1877F2;
+        gap: 10px;
     }
     
 .Join-Our-Comm2{
     flex: 1;
     height: 1024px;
-    /* padding: 70px 0px 0px 70px; */
-    background-color: #837D7D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
      }
 .Wel-Login-h2{
-    width: 525px;
-    height: 61px;
+    width: 565px;
+    height: 71px;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    background-color: #1E1E1E;
+    text-align: center;
+    
 }
 .Wel-Login-p1{
     font-family: 'DM Sans';
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 37.5px;
+    text-align: center;
 }
 .Wel-Login-email{
-    width:408px;
-    height:58px;
+    width:100%;
+    height:48px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
     border-radius:12px;
+    padding-left: 6px;
     background-color: #E0E4EC;
     border: 0px
 }
@@ -4294,15 +4280,19 @@ background-color:#F2F2F2;
 }
 
 .Wel-PassWord-C{
-    width:408px;
-    height:58px;
+    width:100%;
+    height:48px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 6px;
     border-radius:12px;
     background-color: #E0E4EC;
     border: 0px
 }
 .Wel-button-D{
-    width:326px;
-    height:59px;
+    width:280px;
+    height:49px;
     border-radius: 12px;
     background-color: #08299B;
     border:0px;
@@ -4310,19 +4300,54 @@ background-color:#F2F2F2;
     font-weight:500;
     font-size:20px;
     color:#FFFFFF;
+    margin: 20px 0px 00px 160px;
 }
 .Wel-OR{
     font-family:'DM sans';
     font-weight:700;
     font-size:15px;
     line-height:37.5px;
-    
+    text-align: center;
 }
+.Wel-icons{
+    width: 180px;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px 00px 220px;
+}
+.FcGoogle{
+    width:20px;
+    height:20px;
+}
+.IoLogoApple{
+    width:20px;
+    height:20px;
+}
+.FaFacebook{
+    color: rgb(39, 134, 223);
+    width: 20px;
+    height:20px;
+}
+.Already-have-an-account{
+    width:300px;
+    height:34px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 0px 0px 160px;
+}
+
 .Wel-Login-using{
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 16px;
     color: #000000;
+    text-align: center;
+    margin-top: 10px;
     
 }
 

@@ -36,7 +36,7 @@ function SignUp() {
 
           <div className="Create-An-Acct-Con1">
 
-            <h2 className="CAACC-h2">Create An Account</h2>
+            <h2 className="CAACC-h2">Create an Account</h2>
 
             <form className="form-container">
               <label className="label-1">Name</label>
