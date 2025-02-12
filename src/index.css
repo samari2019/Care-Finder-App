@@ -3494,10 +3494,10 @@ color: #08299B;
 .Create-An-Account{
     flex: 1;
     height: 1024px;
-    padding: 70px 0px 0px 70px;
+    padding: 70px 0px 0px 20px;
 }
 .Create-An-Acct-Con1{
-width: 643px;
+width: 100%;
 height: 879px;
 display: flex;
 flex-direction: column;
@@ -3506,7 +3506,7 @@ border-radius: 20px 0px 0px 0px;
 background-color:#F2F2F2;
 }
 .form-container{
-    width:595px;
+    width:100%;
     height:492px;
     border-radius: 12px;
     display: flex;
@@ -3610,9 +3610,6 @@ background-color:#F2F2F2;
 .error{
     width:508px;
     height:58px;
-    /* position: absolute;
-    top:698px;
-    left:45px; */
 }
 .button-D{
     width:306px;
@@ -3629,13 +3626,12 @@ background-color:#F2F2F2;
     margin: auto;
 }
 .OR{
-    width:90px;
+    width:30px;
     height:35px;
     font-family:'DM sans';
     font-weight:700;
     font-size:20px;
     line-height:37.5px;
-    text-align: center;
     margin-top: 20px;
 }
 .icons{
@@ -3661,17 +3657,17 @@ background-color:#F2F2F2;
     height:20px;
 }
 .Already-have-an-account{
-    width:563px;
+    width:363px;
     height:44px;
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
+    margin-top: 40px;
     text-align: center;
-    margin-top: 60px;
 }
 .Join-comm-con1{
-    width: 643px;
+    width: 100%;
     height: 879px;
     display: flex;
     flex-direction: column;
@@ -3735,7 +3731,7 @@ background-color:#F2F2F2;
          padding: 30px 0px 0px 30px;
      }
      .Create-An-Acct-Con1{
-     /* width: 423px; */
+     width: 100%; 
      height: 879px;
      display: flex;
      flex-direction: column;
@@ -3744,7 +3740,7 @@ background-color:#F2F2F2;
      background-color:#F2F2F2;
      }
      .form-container{
-         /* width:400px; */
+          width:400px; 
          height:592px;
          border-radius: 12px;
          display: flex;
@@ -3905,9 +3901,7 @@ background-color:#F2F2F2;
          line-height: 20px;
          text-align: center;
          margin: auto;
-     
      }
-
      .Join-Our-Comm{
         flex: 1;
         height: 1024px;
@@ -3977,7 +3971,7 @@ background-color:#F2F2F2;
          padding-top: 10px;
          position: absolute;
          top:740px;
-         left: 20px;;
+         left: 5%;
      }
      .Create-An-Acct-Con1{
      width: 320px;
@@ -4090,9 +4084,6 @@ background-color:#F2F2F2;
      .error{
          width:300px;
          height:38px;
-         /* position: absolute;
-         top:698px;
-         left:45px; */
      }
      .button-D{
          width:200px;
@@ -4211,12 +4202,12 @@ background-color:#F2F2F2;
      .Login-Account{
         flex: 1;
         height: 1024px;
-        padding: 70px 0px 0px 70px;
+        padding: 70px 0px 0px 30px;
         background-color: #C1C1C1;
         margin:40px 0px 0px 40px;
     }
     .Login-Account{
-    width: 543px;
+    width: 100%;
     height: 879px;
     display: flex;
     flex-direction: column;
@@ -4330,7 +4321,7 @@ background-color:#F2F2F2;
     width: 20px;
     height:20px;
 }
-.Already-have-an-account{
+.wel-Already-have-an-account{
     width:300px;
     height:34px;
     font-family: 'DM Sans';
@@ -4347,10 +4338,165 @@ background-color:#F2F2F2;
     font-size: 16px;
     color: #000000;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px;  
+}
+.AHAA-LOGIN{
+    color: #08299B;
+    text-decoration: none;
+    font-style: italic;
+}
+}
+/* For ipad and tablet devices */
+@media (min-width: 481px) and (max-width: 947px){
+    .Login-Container{
+        background-image: url("../public/images/img11.jpg");
+         width: 100%;
+         height: 840px; 
+         display: flex;
+     }
+    .Login-Account{
+        flex: 1;
+        margin:40px 0px 0px 20px;
+    }
+    .Login-Con1{
+    width:100%;
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 0px 0px 0px;
+    background-color:#F2F2F2; 
+    }
+    .form-container2{
+        width:100%;
+        height:302px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     
+.Join-Our-Comm2{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+.Wel-Login-h2{
+    height:70px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center; 
+    padding-top: 30px;  
+}
+.Wel-Login-p1{
+    height: 70px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 37.5px;
+    text-align: center;
+}
+.Wel-Login-email{
+    width:100%;
+    height:48px;
+    border-radius:15px;
+    background-color: #E0E4EC;
+    border: 0px;
+    padding-left: 15px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: #C1C1C1;
+}
+.Login-label-2{
+    height:37px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+}
+.Login-label-3{
+    height:37px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
 }
 
+.Wel-PassWord-C{
+    width:100%;
+    height:48px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 6px;
+    border-radius:15px;
+    background-color: #E0E4EC;
+    border: 0px
+}
+.Wel-button-D{
+    width:160px;
+    height: 48px;
+    border-radius: 12px;
+    border:0px;
+    background-color: #08299B;
+    color: #FFFFFF;
+    line-height: 45px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size:15px;
+    text-align: center;
+    margin: auto;
+}
+.Wel-OR{
+    font-family:'DM sans';
+    font-weight:700;
+    font-size:15px;
+    line-height:37.5px;
+    text-align: center;
+}
+.Wel-icons{
+    width: 180px;
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FcGoogle{
+    width:20px;
+    height:20px;
+}
+.IoLogoApple{
+    width:20px;
+    height:20px;
+}
+.FaFacebook{
+    color: rgb(39, 134, 223);
+    width: 20px;
+    height:20px;
+}
+.Already-have-an-account{
+    width:300px;
+    height:34px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 0px 0px 40px;
+}
+
+.Wel-Login-using{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;  
+}
 .AHAA-LOGIN{
     color: #08299B;
     text-decoration: none;
@@ -4365,6 +4511,168 @@ background-color:#F2F2F2;
     position: relative;
     top:104px;
     left:335px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .Login-Container{
+        background-image: url("../public/images/img11.jpg");
+         width: 100%;
+         height: 1840px; 
+         display: flex;
+         position: relative;
+     }
+     .Login-Account{
+         flex: 1;
+         height: 974px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-top: 10px;
+         position: absolute;
+         top:780px;
+         left: 5%;
+    }
+    .Login-Con1{
+    width:320px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#F2F2F2; 
+    }
+    .form-container2{
+        width:100%;
+        height:302px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+.Join-Our-Comm2{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+.Wel-Login-h2{
+    height:70px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center; 
+    padding-top: 30px;  
+}
+.Wel-Login-p1{
+    height: 70px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 37.5px;
+    text-align: center;
+}
+.Wel-Login-email{
+    width:100%;
+    height:48px;
+    border-radius:15px;
+    background-color: #E0E4EC;
+    border: 0px;
+    padding-left: 15px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: #C1C1C1;
+}
+.Login-label-2{
+    height:37px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+}
+.Login-label-3{
+    height:37px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+}
+
+.Wel-PassWord-C{
+    width:100%;
+    height:48px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 6px;
+    border-radius:15px;
+    background-color: #E0E4EC;
+    border: 0px
+}
+.Wel-button-D{
+    width:120px;
+    height: 40px;
+    border-radius: 12px;
+    border:0px;
+    background-color: #08299B;
+    color: #FFFFFF;
+    line-height: 45px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size:15px;
+    text-align: center;
+    margin: auto;
+}
+.Wel-OR{
+    font-family:'DM sans';
+    font-weight:700;
+    font-size:15px;
+    line-height:37.5px;
+    text-align: center;
+}
+.Wel-icons{
+    width: 180px;
+    height:70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FcGoogle{
+    width:20px;
+    height:20px;
+}
+.IoLogoApple{
+    width:20px;
+    height:20px;
+}
+.FaFacebook{
+    color: rgb(39, 134, 223);
+    width: 20px;
+    height:20px;
+}
+.Already-have-an-account{
+    width:300px;
+    height:34px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 0px 0px 40px;
+}
+
+.Wel-Login-using{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;  
+}
+.AHAA-LOGIN{
+    color: #08299B;
+    text-decoration: none;
+    font-style: italic;
+}
 }
 .popup-h1{
     font-family: 'DM Sans';

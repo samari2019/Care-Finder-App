@@ -13,29 +13,30 @@ import Library from "./Library";
 
 
 
- export const AppContext = React.createContext({})
- export const hospitalList = []
+export const AppContext = React.createContext({})
+export const hospitalList = []
 
 function App() {
   const [filterHospital, setfilterHospital] = useState([]);
   const [NearByHospital, setNearByHospital] = useState("HI Hospital");
-  
-  return ( <AppContext.Provider value={{NearByHospital, setNearByHospital, hospitalList, filterHospital, setfilterHospital}}>
+
+  return (<AppContext.Provider value={{ NearByHospital, setNearByHospital, hospitalList, filterHospital, setfilterHospital }}>
     <div className="container">
       <BrowserRouter>
         <Routes>
-       
+
           <Route path="/" element={<Home />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/LogIn" element={<LogIn />} />
           <Route path="/FindHospital" element={<FindHospital />} />
+          <Route path="/Profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
       {/*<PopUp />*/}
       {/*<Profile />*/}
-     {/* <Library /> */}
+      <Library />
     </div>
-    </AppContext.Provider> );
+  </AppContext.Provider>);
 }
 
 export default App;

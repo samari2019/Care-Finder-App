@@ -31,7 +31,7 @@ function LogIn() {
               <IoLogoApple className="IoLogoApple" />
               <FaFacebook className="FaFacebook" />
             </div>
-            <p className="Already-have-an-account">Don't have an account?<a href="SignUp" className="AHAA-LOGIN">Signup!</a></p>
+            <p className="wel-Already-have-an-account">Don't have an account?<a href="SignUp" className="AHAA-LOGIN">Signup!</a></p>
           </div>
         </div>
 
